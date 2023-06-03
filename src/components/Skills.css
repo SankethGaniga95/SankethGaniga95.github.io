@@ -1,0 +1,232 @@
+#skills-container{
+   
+    gap:40px;
+    width:70%;
+    margin-left:340px;
+    
+}
+
+.level4{
+    display: flex;
+ 
+    margin-left:-20px;
+    margin-bottom: 20px;
+}
+.level4>div>img{
+    object-fit:contain;
+    height:80px;
+    width:100px;
+    margin-top:20px
+}
+.level4>div>p{
+    color: black;
+    font-size:17px;
+    font-weight:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.level4>div{
+    border:5px solid#00abf0;
+    background: white;
+    width:150px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.level3{
+    display: flex;
+    margin-left:65px;
+    margin-bottom: 20px;
+   
+}
+.level3>div>img{
+    object-fit:contain;
+    height:80px;
+    width:100px;
+    margin-top:20px
+}
+.level3>div>p{
+    color: black;
+    font-size:17px;
+    font-weight:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.level3>div{
+    border:5px solid#00abf0;
+    background: white;
+    width:150px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.level2{
+    display: flex;
+    margin-left:155px;
+    margin-bottom: 20px;
+  
+   
+}
+.level2>div>img{
+    object-fit:contain;
+    height:80px;
+    width:100px;
+    margin-top:20px
+}
+.level2>div:nth-child(2)>img{
+    object-fit:contain;
+    height:80px;
+    width:150px;
+    margin-top:10px
+}
+.level2>div>p{
+    color: black;
+    font-size:17px;
+    font-weight:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.level2>div{
+    border:5px solid#00abf0;
+    background: white;
+    width:150px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.level1{
+    display: flex;
+   margin-left:260px;
+   margin-bottom: 20px;
+}
+.level1>div>img{
+    object-fit:contain;
+    height:80px;
+    width:100px;
+    margin-top:20px
+}
+.level1>div>p{
+    color: black;
+    font-size:17px;
+    font-weight:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.level1>div{
+    border:5px solid#00abf0;
+    background: white;
+    width:150px;
+    border-radius: 20px;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* @media screen and (max-width: 600px) {
+    #skills-container{
+   
+        gap:40px;
+        width:70%;
+        margin-left:340px;
+        
+    }
+    
+    .level4{
+        display: block;
+     
+        margin-left:-20px;
+        margin-bottom: 20px;
+    }
+    .level4>div>img{
+        object-fit:contain;
+        height:80px;
+        width:100px;
+        margin-top:20px
+    }
+    .level4>div>p{
+        color: black;
+        font-size:17px;
+        font-weight:20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .level4>div{
+        border:5px solid#00abf0;
+        background: white;
+        width:150px;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+    .level3{
+        display: block;
+        margin-left:65px;
+        margin-bottom: 20px;
+       
+    }
+    .level3>div>img{
+        object-fit:contain;
+        height:80px;
+        width:100px;
+        margin-top:20px
+    }
+    .level3>div>p{
+        color: black;
+        font-size:17px;
+        font-weight:20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .level3>div{
+        border:5px solid#00abf0;
+        background: white;
+        width:150px;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+    .level2{
+        display: block;
+        margin-left:155px;
+        margin-bottom: 20px;
+      
+       
+    }
+    .level2>div>img{
+        object-fit:contain;
+        height:80px;
+        width:100px;
+        margin-top:20px
+    }
+    .level2>div:nth-child(2)>img{
+        object-fit:contain;
+        height:80px;
+        width:150px;
+        margin-top:10px
+    }
+    .level2>div>p{
+        color: black;
+        font-size:17px;
+        font-weight:20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .level2>div{
+        border:5px solid#00abf0;
+        background: white;
+        width:150px;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+    .level1{
+        display: block;
+       margin-left:260px;
+       margin-bottom: 20px;
+    }
+    .level1>div>img{
+        object-fit:contain;
+        height:80px;
+        width:100px;
+        margin-top:20px
+    }
+    .level1>div>p{
+        color: black;
+        font-size:17px;
+        font-weight:20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .level1>div{
+        border:5px solid#00abf0;
+        background: white;
+        width:150px;
+        border-radius: 20px;
+    }
+   
+  } */

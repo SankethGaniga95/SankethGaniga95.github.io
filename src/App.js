@@ -1,10 +1,20 @@
 
 import './App.css';
+import { Navbar } from './components/Navbar';
+import { About } from './components/About';
+import { Home } from './components/Home';
+import { Skills } from './components/Skills';
+
+
 
 function App() {
   return (
     <div className="App">
-     Sanketh's 
+    
+    <Navbar/>
+    <Home/>
+    <About/>
+    <Skills/>
     </div>
   );
 }
