@@ -11,7 +11,7 @@ export const Navbar=()=>{
                 <a href="#home"  className="nav-link home">Home</a>
             </li>
             <li>
-                <a href="#about" className="nav-link about">About</a>
+                <a href="#about" className="nav-link about">About</a> 
             </li>
             <li>
                 <a href="#skills" className="nav-link skills">Skills</a>

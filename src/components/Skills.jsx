@@ -22,55 +22,55 @@ export const Skills=()=>{
             {/* ------------------------------ */}
                <div className="level1">
                 <div>
-                 <img src={react} alt="" />
-                 <p>ReactJS</p>
+                 <img src={react} alt="" className="skills-card-img" />
+                 <p className="skills-card-name">ReactJS</p>
                 </div>
                </div>
                {/* ---------------------------------------- */}
                <div className="level2">
                 <div>
-                  <img src={nodejs} alt="" />
-                  <p>NodeJS</p>
+                  <img src={nodejs} alt="" className="skills-card-img" />
+                  <p className="skills-card-name">NodeJS</p>
                </div>
                   <div>
-                   <img src={mongodb} alt="" />
-                    <p>MongoDB</p>
+                   <img src={mongodb} alt="" className="skills-card-img" />
+                    <p className="skills-card-name">MongoDB</p>
                   </div>
                </div>
 
 
     <div className="level3">
      <div>
-     <img src={redux} alt="" />
-         <p>Redux</p>
+     <img src={redux} alt="" className="skills-card-img" />
+         <p className="skills-card-name">Redux</p>
      </div>
     <div>
-    <img src={express} alt="" />
-        <p>Express</p>
+    <img src={express} alt="" className="skills-card-img" />
+        <p className="skills-card-name">Express</p>
     </div>
     <div>
-    <img src={chakraui} alt="" />
-        <p>Chakra UI</p>
+    <img src={chakraui} alt="" className="skills-card-img" />
+        <p className="skills-card-name">Chakra UI</p>
     </div>
     </div>
 
 
     <div className="level4">
     <div>
-        <img src={html} alt="" />
-        <p>HTML</p>
+        <img src={html} alt="" className="skills-card-img" />
+        <p className="skills-card-name">HTML</p>
     </div>
     <div>
-    <img src={css} alt="" />
-        <p>CSS</p>
+    <img src={css} alt="" className="skills-card-img" />
+        <p className="skills-card-name">CSS</p>
     </div>
     <div>
-    <img src={javascript} alt="" />
-        <p>JavaScript</p>
+    <img src={javascript} alt="" className="skills-card-img" />
+        <p className="skills-card-name">JavaScript</p>
     </div>
     <div>
-    <img src={git} alt="" />
-        <p>Git</p>
+    <img src={git} alt="" className="skills-card-img" />
+        <p className="skills-card-name">Git</p>
     </div>
     </div>
     </div>

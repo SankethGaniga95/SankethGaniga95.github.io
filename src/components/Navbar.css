@@ -9,7 +9,14 @@ h3{
     margin-left:50px
 }
 
-
+a{
+    color:white;
+    border-radius: 5px;
+    padding: 8px 18px;
+}
+a:hover{
+    color:#00abf0 ;
+}
 
 
 

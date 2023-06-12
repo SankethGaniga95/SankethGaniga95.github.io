@@ -31,8 +31,20 @@ color:#00abf0
     margin-left: 55px;
     line-height: 20px;
     text-align: left;
+    animation: gradient 6s ease infinite;
    
     }
+    @keyframes gradient {
+        0% { color: #6bc5f8; }
+        12%{color:#cf59e6;}
+        25% { color: #6bc5f8; }
+        38% { color: #cf59e6; }
+        50% { color: #6bc5f8; }
+        62%{color:#cf59e6;}
+        75% { color: #6bc5f8; }
+        88% { color: #cf59e6; }
+        100% { color: #6bc5f8; }
+      }
 #home-content>h2{
     font-size:60px;
     margin-left:60px;
