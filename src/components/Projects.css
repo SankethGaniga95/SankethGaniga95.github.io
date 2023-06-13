@@ -1,0 +1,18 @@
+.project-card{
+    border:2px solid white;
+    padding: 50px;
+    display: flex;
+    width:70%;
+    margin:auto;
+    text-align: left;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.project-card>img{
+    width:700px
+    
+}
+
+.project-details{
+    margin-left: 30px;
+}
