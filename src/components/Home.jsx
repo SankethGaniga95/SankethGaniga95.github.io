@@ -1,5 +1,5 @@
 import "./Home.css"
-import image from "../images/luca-bravo-XJXWbfSo2f0-unsplash.jpg"
+
 
 
 

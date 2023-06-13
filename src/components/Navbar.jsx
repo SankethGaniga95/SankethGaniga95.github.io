@@ -1,6 +1,7 @@
 import "./Navbar.css"
 
 
+
 export const Navbar=()=>{
 
     return(
@@ -23,9 +24,12 @@ export const Navbar=()=>{
                 <a href="#contact" className="nav-link contact">Contact</a>
             </li>
             <li>
-                <a href="#resume" className="nav-link resume">
-                <button>Resume</button>
+                <button id="resume-button-1">
+
+                <a href="https://drive.google.com/file/d/1WB6LWvTqpwnKuwJrGRYomqThnU-nnOiG/view?usp=drive_link&export==download" target="_blank" rel="noreferrer" className="nav-link resume" id="resume-link-1" download>
+                {/* <button id="resume-button-1">Resume</button> */}Resume
                 </a>
+                </button>
                 
             </li>
 

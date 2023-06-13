@@ -19,10 +19,10 @@ export const Projects = () => {
         <p>Chakra UI</p>
         <p>JSON server</p>
         </div>
-        <a href="https://github.com/SankethGaniga95/imaginary-blood-7556" target='_blank' className='project-github-link'>
+        <a href="https://github.com/SankethGaniga95/imaginary-blood-7556" target='_blank' rel="noreferrer" className='project-github-link'>
         <button >GitHub</button>
         </a>
-        <a href="https://imaginary-blood-7556.netlify.app/" target="_blank" className='project-deployed-link'>
+        <a href="https://imaginary-blood-7556.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
         <button >Live Site</button>
         </a>
         </div>
@@ -38,10 +38,10 @@ export const Projects = () => {
         <p>CSS</p>
         <p>JavaScript</p>
         </div>
-        <a href="https://github.com/SankethGaniga95/timely-river-8283" className='project-github-link' target='_blank'>
+        <a href="https://github.com/SankethGaniga95/timely-river-8283" className='project-github-link' target='_blank' rel="noreferrer">
         <button >GitHub</button>
         </a>
-        <a href="https://timely-river-8283.netlify.app/" target="_blank" className='project-deployed-link'>
+        <a href="https://timely-river-8283.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
         <button >Live Site</button>
         </a>
         </div>
@@ -58,10 +58,10 @@ Kiranawaale is an e commerce website which sells products related to kitchen war
         <p>CSS</p>
         <p>JavaScript</p>
         </div>
-        <a href="https://github.com/SankethGaniga95/flawless-vegetable-3066" target='_blank' className='project-github-link'>
+        <a href="https://github.com/SankethGaniga95/flawless-vegetable-3066" target='_blank' rel="noreferrer" className='project-github-link'>
         <button >GitHub</button>
         </a>
-        <a href="https://poetic-bombolone-938874.netlify.app/" target="_blank" className='project-deployed-link'>
+        <a href="https://poetic-bombolone-938874.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
         <button >Live Site</button>
         </a>
         </div>
@@ -77,10 +77,10 @@ Kiranawaale is an e commerce website which sells products related to kitchen war
         <p>Chakra UI</p>
         <p>JSON server</p>
         </div>
-        <a href="https://github.com/SankethGaniga95/imaginary-blood-7556" target='_blank' className='project-github-link'>
+        <a href="https://github.com/SankethGaniga95/imaginary-blood-7556" target='_blank' rel="noreferrer" className='project-github-link'>
         <button >GitHub</button>
         </a>
-        <a href="https://imaginary-blood-7556.netlify.app/" target="_blank" className='project-deployed-link'>
+        <a href="https://imaginary-blood-7556.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
         <button >Live Site</button>
         </a>
         </div>
