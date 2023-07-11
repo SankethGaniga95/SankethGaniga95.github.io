@@ -12,12 +12,14 @@ return(
     <h2>About Me -</h2>
     <h1 id="user-detail-name">Sanketh Ganiga</h1>
     <p id="user-detail-intro">An aspiring Front-End Web Developer with  React, HTML, CSS, and JavaScript. Skilled in creating visually appealing and user-friendly websites. Collaborative team player with problem-solving skills and attention to detail. Committed to staying updated with industry trends and delivering innovative solutions. </p>
-    </div>
     <div>
-    <a href="https://drive.google.com/file/d/1WB6LWvTqpwnKuwJrGRYomqThnU-nnOiG/view?usp=drive_link&export=download" target="_blank" rel="noreferrer"  id="resume-link-2" download>
-                <button id="resume-button-2">Resume</button>
-                </a>
+    <a href="https://drive.google.com/uc?id=1WB6LWvTqpwnKuwJrGRYomqThnU-nnOiG" id="resume-link-2" target="_blank" rel="noreferrer" download>
+                            <button className="resume-button" id="resume-button-2">Resume</button>
+                        </a>
     </div>
+    
+    </div>
+    
     </div>
 )
 }

@@ -20,3 +20,12 @@
 #about>div>img{
     width:400px
 }
+.resume-button{
+    width:100px;
+    height:50px;
+    font-size: large;
+    border-radius: 10px;
+}
+.resume-button:hover{
+    background-color:aqua
+}
