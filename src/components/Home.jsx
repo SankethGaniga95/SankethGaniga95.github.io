@@ -6,8 +6,7 @@ import "./Home.css"
 export const Home=()=>{
 
     return(
-        <div id="home">
-        
+        <div id="home">     
         <div id="home-content">
         <p>Hi there, my name is</p>
         <h1>Sanketh Ganiga.</h1>

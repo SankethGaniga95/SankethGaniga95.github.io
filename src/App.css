@@ -1,10 +1,11 @@
 .App {
   width:100vw;
   text-align: center;
-  background-color:#05162f;
+  background-color:#0f172a;
   color: white;
-  cursor:url("http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif"), auto;
+  /* cursor:url(""), auto; */
 }
+
 
 .App-logo {
   height: 40vmin;

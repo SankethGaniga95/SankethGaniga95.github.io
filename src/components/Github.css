@@ -13,3 +13,11 @@
     margin-top: 50px;  
     padding: 20px;
 }
+#All-cards{
+   display: flex;
+   justify-content: space-around;
+   align-items: center; 
+}
+#All-cards div:nth-child(2){
+    margin-left: 20px;
+}

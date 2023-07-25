@@ -3,6 +3,7 @@ import kiranawaale from "../images/kiranawaale.png"
 import mountaineer from "../images/Mountaineer.png"
 import achiever from "../images/Achiever_Avenue.png"
 import "./Projects.css"
+import skilhub from "../images/skillhub.png"
 
 export const Projects = () => {
   return (
@@ -67,20 +68,25 @@ Kiranawaale is an e commerce website which sells products related to kitchen war
         </div>
       </div>
       <div className='project-card'>
-        <img src={achiever} alt="" />
+        <img src={skilhub} alt="" />
         <div className='project-details'>
-        <h2 className='project-title'>Achiever's Avenue</h2>
-        <p className='project-description'>Achiever's Avenue is a learning platform for the aspirants of IIT and Medical Colleges. It offers online and offline coaching.</p>
+        <h2 className='project-title'>Skill Hub</h2>
+        <p className='project-description'>Skill Hub is a learning platform for developing skills in the field of technology where the user can learn Machine Learning,Web Development,etc. through video lectures</p>
         <div className='project-tech-stack'>
         <h1>Tech Stack:-</h1>
-        <p>React</p>
+        <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)"}}>
+        <p>ReactJs</p>
         <p>Chakra UI</p>
-        <p>JSON server</p>
+        <p>Redux</p>
+        <p>MongoDB</p>
+        <p>Express</p>
+        <p>NodeJs</p>
         </div>
-        <a href="https://github.com/SankethGaniga95/imaginary-blood-7556" target='_blank' rel="noreferrer" className='project-github-link'>
+        </div>
+        <a href="https://github.com/Ak-nut-47/greasy-sofa-2441" target='_blank' rel="noreferrer" className='project-github-link'>
         <button >GitHub</button>
         </a>
-        <a href="https://imaginary-blood-7556.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
+        <a href="https://nemskillhub.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
         <button >Live Site</button>
         </a>
         </div>
