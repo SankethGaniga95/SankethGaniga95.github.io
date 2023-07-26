@@ -71,10 +71,10 @@ Kiranawaale is an e commerce website which sells products related to kitchen war
         <img src={skilhub} alt="" />
         <div className='project-details'>
         <h2 className='project-title'>Skill Hub</h2>
-        <p className='project-description'>Skill Hub is a learning platform for developing skills in the field of technology where the user can learn Machine Learning,Web Development,etc. through video lectures</p>
+        <p className='project-description'>Skill Hub is a online learning platform for developing skills in the field of technology through video lectures</p>
         <div className='project-tech-stack'>
         <h1>Tech Stack:-</h1>
-        <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)"}}>
+        <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)",lineHeight:"5px"}}>
         <p>ReactJs</p>
         <p>Chakra UI</p>
         <p>Redux</p>

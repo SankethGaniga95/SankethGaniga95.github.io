@@ -26,15 +26,49 @@ font-size:x-large;
 line-height: 10px;
 color:#00abf0
 }
-#home-content>h1{
-    font-size:100px;
+ #home-content>h1{
+    font-size:50px;
     margin-left: 55px;
-    line-height: 20px;
+    line-height: 50px;
     text-align: left;
-    animation: gradient 6s ease infinite;
+    /* animation: gradient 6s ease infinite; */
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    
    
-    }
-    @keyframes gradient {
+    } 
+
+    #home-content h2:nth-child(1){
+        font-size:28px;
+        margin-left: 55px;
+        line-height: 50px;
+        text-align: left;
+        /* animation: gradient 6s ease infinite; */
+        font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+        font-weight: 300;
+        color:#444452;
+       
+        } 
+        #home-content h2:nth-child(1)>span{
+            width:30px;
+            height:30px;
+            margin-left: 10px;
+            }
+        #home-content h2:nth-child(1)>span:hover{
+            animation:wave 1s ease;
+            transform-origin: 100% 100%; 
+            display: inline-block;
+        }
+        @keyframes wave {
+            0% { transform: rotate( 0.0deg) }
+            10% { transform: rotate(20.0deg) } 
+            30% { transform: rotate(-10.0deg) }
+            50% { transform: rotate(20.0deg) }
+           100% { transform: rotate( 0.0deg) }
+            
+        }
+        
+    /* @keyframes gradient {
         0% { color: #6bc5f8; }
         12%{color:#cf59e6;}
         25% { color: #6bc5f8; }
@@ -44,20 +78,28 @@ color:#00abf0
         75% { color: #6bc5f8; }
         88% { color: #cf59e6; }
         100% { color: #6bc5f8; }
-      }
+      }  */
 #home-content>h2{
-    font-size:60px;
+    font-size:30px;
     margin-left:60px;
     line-height: 40px;
     text-align: left;
- 
-
+    font-weight: 300;
+    color:#444452;
+}
+#home-content>h2>span{
+    font-size:30px;
+    line-height: 40px;
+    text-align: left;
+    font-weight: 300;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
 }
 #home-content>p:nth-child(4){
     font-size:x-large;
     margin-left: 60px;
     line-height: 40px;  
-    text-align: left;  
+    text-align: left;
+   
 }
 .container{
     height:370px;
@@ -119,13 +161,13 @@ color:#00abf0
     transform:scale(0.7)
 } 
 .shadow{
- width:170px;
- height: 170px;
+ width:165px;
+ height: 160px;
  box-shadow: 21px 0 0 5px rgba(0,0,0,0.15);
  border-radius: 50%;
  position:relative;
-  bottom: 50px;
- left:77px 
+  bottom: 45px;
+ left:80px 
 }
 
 .eye{
@@ -172,7 +214,7 @@ border-radius: 50%;
 .orbit{
     height:280px;
     width:280px;
-    border: 1px solid #ffffff;
+    border: 1px solid gray;
     border-radius: 50%;
     position: absolute;
     margin: auto;
@@ -194,6 +236,7 @@ border-radius: 50%;
     position:relative;
     left: -11px;
      top:115px; 
+     border: 1px solid gray;
     
 }
 /* #39beff */

@@ -1,6 +1,5 @@
 import "./Home.css"
-
-
+import wave from "../images/wave.png"
 
 
 export const Home=()=>{
@@ -8,10 +7,8 @@ export const Home=()=>{
     return(
         <div id="home">     
         <div id="home-content">
-        <p>Hi there, my name is</p>
-        <h1>Sanketh Ganiga.</h1>
-        <h2>Full Stack Web Developer</h2>
-        <p>An Aspiring Web Developer, who is passionate about building user friendly websites, based in Thane,Maharashtra. In my spare time I play chess, read books related to Physics. </p>
+        <h2>Hello! <span><img src={wave} alt="" width="30px" /></span></h2>
+        <h2>I'm <span>Sanketh Ganiga</span>, an aspiring full stack web developer, who is passionate about building user friendly websites, based in Thane,Maharashtra. In my spare time I play chess, read books related to Physics. </h2>
 
         </div>
         <div id="home-image">
