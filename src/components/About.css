@@ -5,13 +5,13 @@
 #about>div:nth-child(1){
  margin-left:570px;
  border-radius: 50%;
- font-weight: 100px;
+ font-weight: 200px;
  font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
  color:#444452;
 }
 #about>div:nth-child(1)>h2{
     margin-left:-35px;
-    font-weight: 300;
+    font-weight: 350;
     font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     font-size:35px;
    }

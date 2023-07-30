@@ -19,8 +19,8 @@ function App() {
     <About/>
     <Skills/>
     <Projects/>
-    <Contact/>
     <Github/>
+    <Contact/>
     </div>
   );
 }

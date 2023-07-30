@@ -1,6 +1,7 @@
 #skills{
-    display:flex;
-    margin-top: 100px;
+   
+    margin-top: 250px;
+    margin-left: 350px;
 
 }
 
@@ -9,27 +10,47 @@
     gap:40px;
     width:70%;
     /* margin-left:340px; */    
+   
+}
+#table{
+    margin-left: -30px;
+
+}
+.row{
+    height: 250px;
+    gap:20px
 }
 
 .skills-card-img{
     object-fit:contain;
     height:80px;
-    width:100px;
+    width:160px;
 
 }
 .sectiontype{
     display: flex;
     justify-content: space-evenly;
-  
     color:#444452;
+
+  
 }
+
 #title{
-    text-align: left;
-    margin-left: 230px;
-    font-weight: 300;
+    text-align: center;
+    margin-left: -380px;
+    font-weight: 350;
     font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     font-size: 35px;
     color: #444452;
+}
+#subtitle{
+    text-align:center;
+    margin-left: -340px;
+    font-weight: 300;
+    font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    color: #444452;
+
 }
 .sectionheading{
   
@@ -39,11 +60,12 @@
 }
 .skills-card-name{
     font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 18px;
 }
 .coffee{
 position: relative;
 top:180px;
-left:20px;
+left:-80px;
 }
 .cup{
     position: relative;

@@ -6,7 +6,7 @@ import "./Github.css"
 
 export const Github = () => {
   return (
-    <div>
+    <div id="github">
 
     <div id="react-activity-calendar">
         <h1>GitHub Stats</h1>

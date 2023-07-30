@@ -21,3 +21,15 @@
 #All-cards div:nth-child(2){
     margin-left: 20px;
 }
+
+#github{
+    margin-top: 200px;
+}
+h1{
+    color:#444452;
+    font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 350;
+    margin-bottom: 70px;
+    font-size: 35px;
+}
