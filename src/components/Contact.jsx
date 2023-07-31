@@ -41,7 +41,7 @@ export const Contact = () => {
     <p>That's all folks!</p>
     <p>Thank you for visiting my portfolio, and I'm looking forward to connecting with you soon.</p>
     <p>Best regards,</p>
-    <div style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"5px",marginLeft:"20px",marginTop:"-15px"}}>
+    <div id="copyright">
     <Copyright size={18} />
     <p>Sanketh Ganiga</p>  
      </div>

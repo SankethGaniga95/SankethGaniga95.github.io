@@ -10,17 +10,19 @@ import { Github } from './components/Github';
 
 
 
+
 function App() {
+  
   return (
     <div className="App">
     
-    <Navbar/>
-    <Home/>
+     <Navbar/>
+     <Home/>
     <About/>
     <Skills/>
     <Projects/>
-    <Github/>
-    <Contact/>
+    <Github/> 
+    <Contact/>  
     </div>
   );
 }

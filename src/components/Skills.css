@@ -1,19 +1,23 @@
 #skills{
    
     margin-top: 250px;
-    margin-left: 350px;
+    background-color: var(--bg-color);
+   
+   
+
 
 }
 
 #skills-container{
    
     gap:40px;
-    width:70%;
-    /* margin-left:340px; */    
+    width:100%;
+    
    
 }
 #table{
-    margin-left: -30px;
+
+    width:70%
 
 }
 .row{
@@ -30,37 +34,41 @@
 .sectiontype{
     display: flex;
     justify-content: space-evenly;
-    color:#444452;
+    color: var(--color);
 
   
 }
 
 #title{
     text-align: center;
-    margin-left: -380px;
     font-weight: 350;
     font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     font-size: 35px;
-    color: #444452;
+    color: var(--color);
 }
 #subtitle{
     text-align:center;
-    margin-left: -340px;
+
     font-weight: 300;
     font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     font-size: 24px;
-    color: #444452;
+    color: var(--color);
 
 }
 .sectionheading{
   
     font-weight: 400;
     font-size: 25px;
-    color: #444452;
+    color: var(--color);
 }
 .skills-card-name{
     font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     font-size: 18px;
+    color: var(--color);
+}
+
+.skills-card-name:hover{
+    color:#00abf0
 }
 .coffee{
 position: relative;

@@ -26,7 +26,7 @@
     margin-top: 200px;
 }
 h1{
-    color:#444452;
+    color:var(--color);
     font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     font-size: 30px;
     font-weight: 350;

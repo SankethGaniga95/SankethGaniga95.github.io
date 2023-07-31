@@ -1,12 +1,26 @@
 .App {
-  width:100vw;
+  width:98vw;
   text-align: center;
-  background-color:white;
-  color: black;
+  background-color:var(--bg-color);
+  color:var(--color)
   /* cursor:url(""), auto; */
   /* #0f172a */
 }
+.light-theme{
+  
+  --bg-color:white;
+  --color:#444452;
+  --footer:#444452;;
+  --footer-color:white;
+}
 
+.dark-theme{
+  
+  --bg-color:#0f172a;
+  color:white;
+  --footer:#020b20;
+  --footer-color:white
+}
 
 .App-logo {
   height: 40vmin;
