@@ -29,6 +29,7 @@
     object-fit:contain;
     height:80px;
     width:160px;
+   
 
 }
 .sectiontype{
@@ -70,6 +71,7 @@
 .skills-card-name:hover{
     color:#00abf0
 }
+
 .coffee{
 position: relative;
 top:180px;

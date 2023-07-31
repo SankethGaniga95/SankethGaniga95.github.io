@@ -1,8 +1,13 @@
 import React from 'react'
 import "./Contact.css"
+import rocket from "../images/rocket12.png"
 import {Copyright, Github, Linkedin, Mail, Phone} from "lucide-react"
-import heart from "../images/heart1.png"
+
 export const Contact = () => {
+
+  const scrollup= () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+  }
   return (
     <>
     <div id="contact">
@@ -45,6 +50,16 @@ export const Contact = () => {
     <Copyright size={18} />
     <p>Sanketh Ganiga</p>  
      </div>
+
+     <div id="scrollup">
+     <img src={rocket} alt="" onClick={scrollup}/>
+     <div className='hide'>
+      Let's go!
+     </div>
+     </div>
+     
+     
+    
     
 
    </div>
