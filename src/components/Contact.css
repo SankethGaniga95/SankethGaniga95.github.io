@@ -96,8 +96,8 @@ a:hover{
 
 #scrollup{
  position: absolute;
- bottom:-6250px;
- left:1250px;
+ bottom:-6290px;
+ left:1260px;
 
 }
 #scrollup>img{
@@ -105,8 +105,11 @@ a:hover{
     
 }
 .hide{
-    display: none;
+    visibility: hidden;
+
 }
 #scrollup:hover .hide{
     display: block;
+    transition: 1s ease;
+    visibility: visible;
 }

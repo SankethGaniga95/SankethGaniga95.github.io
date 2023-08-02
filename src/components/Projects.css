@@ -1,5 +1,5 @@
 .project-card{
-    border:2px solid white;
+    /* border:2px solid #444452; */
     padding: 50px;
     display: flex;
     width:70%;
@@ -7,16 +7,52 @@
     text-align: left;
     border-radius: 20px;
     margin-top: 30px;
+    
+
 }
 .project-card>img{
-    width:700px
-    
+    width:700px;  
 }
 
 .project-details{
     margin-left: 30px;
+    color: var(--color);
+    
 }
 
 #projects{
     margin-top: 250px;
+}
+.project-tech-stack div{
+  margin-top: -10px;
+  line-height: 20px;
+  margin-left: 3px;
+}
+
+.project-tech-stack div p{
+ padding: 10px;
+ /* background-color:var(--footer); */
+ width:fit-content;
+ border-radius: 10px;
+ /* color:var(--color) ; */
+}
+.project-tech-stack>h3{
+ margin-left: 0px;
+}
+h2{
+ font-weight: 600;
+ font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+ color:var(--color)
+}
+button{
+    font-size: 17px;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 8px;
+    font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    color:var(--color);
+    background-color: var(--footer);
+    color:var(--footer-color)
+
 }

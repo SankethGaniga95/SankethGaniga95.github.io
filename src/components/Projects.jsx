@@ -15,10 +15,12 @@ export const Projects = () => {
         <h2 className='project-title'>Achiever's Avenue</h2>
         <p className='project-description'>Achiever's Avenue is a learning platform for the aspirants of IIT and Medical Colleges. It offers online and offline coaching.</p>
         <div className='project-tech-stack'>
-        <h1>Tech Stack:-</h1>
+        <h3>Tech Stack:-</h3>
+        <div>
         <p>React</p>
         <p>Chakra UI</p>
         <p>JSON server</p>
+        </div>
         </div>
         <a href="https://github.com/SankethGaniga95/imaginary-blood-7556" target='_blank' rel="noreferrer" className='project-github-link'>
         <button >GitHub</button>
@@ -34,10 +36,12 @@ export const Projects = () => {
         <h2 className='project-title'>Mountaineer</h2>
         <p className='project-description'>Mountaineer is a clone of an e commerce website Eastern Mountain Sports which sells products related to adventure sports</p>
         <div className='project-tech-stack'>
-        <h1>Tech Stack:-</h1>
+        <h3>Tech Stack:-</h3>
+        <div>
         <p>HTML</p>
         <p>CSS</p>
         <p>JavaScript</p>
+        </div>
         </div>
         <a href="https://github.com/SankethGaniga95/timely-river-8283" className='project-github-link' target='_blank' rel="noreferrer">
         <button >GitHub</button>
@@ -54,10 +58,12 @@ export const Projects = () => {
         <p className='project-description'>About
 Kiranawaale is an e commerce website which sells products related to kitchen ware</p>
         <div className='project-tech-stack'>
-        <h1>Tech Stack:-</h1>
+        <h3>Tech Stack:-</h3>
+        <div>
         <p>HTML</p>
         <p>CSS</p>
         <p>JavaScript</p>
+        </div>
         </div>
         <a href="https://github.com/SankethGaniga95/flawless-vegetable-3066" target='_blank' rel="noreferrer" className='project-github-link'>
         <button >GitHub</button>
@@ -73,8 +79,8 @@ Kiranawaale is an e commerce website which sells products related to kitchen war
         <h2 className='project-title'>Skill Hub</h2>
         <p className='project-description'>Skill Hub is a online learning platform for developing skills in the field of technology through video lectures</p>
         <div className='project-tech-stack'>
-        <h1>Tech Stack:-</h1>
-        <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)",lineHeight:"5px"}}>
+        <h3>Tech Stack:-</h3>
+        <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)",lineHeight:"10px"}}>
         <p>ReactJs</p>
         <p>Chakra UI</p>
         <p>Redux</p>

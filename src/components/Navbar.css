@@ -48,7 +48,7 @@ label{
     display: block;
     background-color: #ebebeb;
     border-radius: 40px;
-    box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4),inset 0px -5px 15px rgba(225,225,225,0.4);    
+    box-shadow: inset 0px 5px 15px rgba(0,0,0,0.2),inset 0px -5px 15px rgba(225,225,225,0.4);    
     cursor: pointer;
     transition: 0.3s;
     margin-top: -20px;
