@@ -46,17 +46,21 @@ export const Contact = () => {
     <p>That's all folks!</p>
     <p>Thank you for visiting my portfolio, and I'm looking forward to connecting with you soon.</p>
     <p>Best regards,</p>
+    <div id="footer-end">
+
     <div id="copyright">
     <Copyright size={18} />
     <p>Sanketh Ganiga</p>  
      </div>
-
      <div id="scrollup">
      <img src={rocket} alt="" onClick={scrollup}/>
      <div className='hide'>
       Let's go!
      </div>
      </div>
+    </div>
+
+  
      
      
     

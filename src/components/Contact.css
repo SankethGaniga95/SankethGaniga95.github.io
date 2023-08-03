@@ -94,12 +94,17 @@ a:hover{
 }
 
 
-#scrollup{
- position: absolute;
- bottom:-6790px;
- left:1260px;
 
+
+#footer-end{
+    display: flex;
+    margin-top: -20px;
+    justify-content:space-between;
+    width:53%;
+    margin-left: 45%;
+    
 }
+
 #scrollup>img{
     width:50px;
     
