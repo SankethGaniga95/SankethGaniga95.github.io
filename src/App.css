@@ -10,6 +10,7 @@
   --color:#444452;
   --footer:#444452;;
   --footer-color:white;
+  --border:white;
 }
 
 .dark-theme{
@@ -17,7 +18,8 @@
   --bg-color:#0f172a;
   color:white;
   --footer:#020b20;
-  --footer-color:white
+  --footer-color:white;
+  --border:#00abf0;
 }
 
 .App-logo {

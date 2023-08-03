@@ -69,11 +69,12 @@
     width:85px;
     height:45px;
     font-size:18px;
-    border-radius: 12px;
+    border-radius: 8px;
     border: none;
     margin-top: 10px;
     font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     font-weight: 400; 
+    border: 2px solid #00abf0;
 }
 .resume-button:hover{
    color: #00abf0;

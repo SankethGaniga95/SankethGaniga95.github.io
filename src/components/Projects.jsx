@@ -8,11 +8,23 @@ import skilhub from "../images/skillhub.png"
 export const Projects = () => {
   return (
     <div id="projects">
-      <h1>Projects</h1>
+      <h1 id="title">Projects</h1>
       <div className='project-card'>
         <img src={achiever} alt="" />
         <div className='project-details'>
+        <div className='heading'>
+        <div>
         <h2 className='project-title'>Achiever's Avenue</h2>
+        </div>
+        <div>
+        <a href="https://github.com/SankethGaniga95/imaginary-blood-7556" target='_blank' rel="noreferrer" className='project-github-link'>
+        <button >GitHub</button>
+        </a>
+        <a href="https://imaginary-blood-7556.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
+        <button >Live Site</button>
+        </a>
+        </div>
+        </div>
         <p className='project-description'>Achiever's Avenue is a learning platform for the aspirants of IIT and Medical Colleges. It offers online and offline coaching.</p>
         <div className='project-tech-stack'>
         <h3>Tech Stack:-</h3>
@@ -22,18 +34,24 @@ export const Projects = () => {
         <p>JSON server</p>
         </div>
         </div>
-        <a href="https://github.com/SankethGaniga95/imaginary-blood-7556" target='_blank' rel="noreferrer" className='project-github-link'>
-        <button >GitHub</button>
-        </a>
-        <a href="https://imaginary-blood-7556.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
-        <button >Live Site</button>
-        </a>
         </div>
       </div>
       <div className='project-card'>
         <img src={mountaineer} alt="" />
         <div className='project-details'>
+        <div className='heading'>
+        <div>
         <h2 className='project-title'>Mountaineer</h2>
+        </div>
+        <div>
+        <a href="https://github.com/SankethGaniga95/timely-river-8283" className='project-github-link' target='_blank' rel="noreferrer">
+        <button >GitHub</button>
+        </a>
+        <a href="https://timely-river-8283.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
+        <button >Live Site</button>
+        </a>
+        </div>
+        </div>
         <p className='project-description'>Mountaineer is a clone of an e commerce website Eastern Mountain Sports which sells products related to adventure sports</p>
         <div className='project-tech-stack'>
         <h3>Tech Stack:-</h3>
@@ -43,18 +61,24 @@ export const Projects = () => {
         <p>JavaScript</p>
         </div>
         </div>
-        <a href="https://github.com/SankethGaniga95/timely-river-8283" className='project-github-link' target='_blank' rel="noreferrer">
-        <button >GitHub</button>
-        </a>
-        <a href="https://timely-river-8283.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
-        <button >Live Site</button>
-        </a>
         </div>
       </div>
       <div className='project-card'>
         <img src={kiranawaale} alt="" />
         <div className='project-details'>
+        <div className='heading'>
+        <div>
         <h2 className='project-title'>Kiranawaale</h2>
+        </div>
+        <div>
+        <a href="https://github.com/SankethGaniga95/flawless-vegetable-3066" target='_blank' rel="noreferrer" className='project-github-link'>
+        <button >GitHub</button>
+        </a>
+        <a href="https://poetic-bombolone-938874.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
+        <button >Live Site</button>
+        </a>
+        </div>
+        </div>
         <p className='project-description'>About
 Kiranawaale is an e commerce website which sells products related to kitchen ware</p>
         <div className='project-tech-stack'>
@@ -65,22 +89,28 @@ Kiranawaale is an e commerce website which sells products related to kitchen war
         <p>JavaScript</p>
         </div>
         </div>
-        <a href="https://github.com/SankethGaniga95/flawless-vegetable-3066" target='_blank' rel="noreferrer" className='project-github-link'>
-        <button >GitHub</button>
-        </a>
-        <a href="https://poetic-bombolone-938874.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
-        <button >Live Site</button>
-        </a>
         </div>
       </div>
       <div className='project-card'>
         <img src={skilhub} alt="" />
         <div className='project-details'>
+        <div className='heading'>
+        <div>
         <h2 className='project-title'>Skill Hub</h2>
+        </div>
+        <div>
+        <a href="https://github.com/Ak-nut-47/greasy-sofa-2441" target='_blank' rel="noreferrer" className='project-github-link'>
+        <button >GitHub</button>
+        </a>
+        <a href="https://nemskillhub.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
+        <button >Live Site</button>
+        </a>
+        </div>
+        </div>
         <p className='project-description'>Skill Hub is a online learning platform for developing skills in the field of technology through video lectures</p>
         <div className='project-tech-stack'>
         <h3>Tech Stack:-</h3>
-        <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)",lineHeight:"10px"}}>
+        <div>
         <p>ReactJs</p>
         <p>Chakra UI</p>
         <p>Redux</p>
@@ -89,12 +119,7 @@ Kiranawaale is an e commerce website which sells products related to kitchen war
         <p>NodeJs</p>
         </div>
         </div>
-        <a href="https://github.com/Ak-nut-47/greasy-sofa-2441" target='_blank' rel="noreferrer" className='project-github-link'>
-        <button >GitHub</button>
-        </a>
-        <a href="https://nemskillhub.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
-        <button >Live Site</button>
-        </a>
+        
         </div>
       </div>
     </div>

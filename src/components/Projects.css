@@ -1,7 +1,7 @@
 .project-card{
     /* border:2px solid #444452; */
     padding: 50px;
-    display: flex;
+    /* display: flex; */
     width:70%;
     margin:auto;
     text-align: left;
@@ -10,8 +10,23 @@
     
 
 }
+#title{
+    text-align: center;
+    font-weight: 350;
+    font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-size: 35px;
+    color: var(--color);
+
+}
+.project-title{
+  color:var(--color)
+
+}
+.project-description{
+    font-size: 20px;
+}
 .project-card>img{
-    width:700px;  
+    width:700px;
 }
 
 .project-details{
@@ -22,22 +37,40 @@
 
 #projects{
     margin-top: 250px;
+    font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    color:var(--color)
+}
+.project-tech-stack{
+    display: flex;
+    align-items: center;
 }
 .project-tech-stack div{
   margin-top: -10px;
   line-height: 20px;
   margin-left: 3px;
+  display: flex;
+  gap:15px;
+  margin-left:15px;
 }
 
 .project-tech-stack div p{
- padding: 10px;
- /* background-color:var(--footer); */
+ padding: 8px;
+ background-color:gray;
  width:fit-content;
- border-radius: 10px;
- /* color:var(--color) ; */
+ border-radius: 6px;
+ color:var(--footer-color) ;
+ font-size: 15px;
+ font-weight: 400;
+
+
+
+
 }
+
 .project-tech-stack>h3{
  margin-left: 0px;
+ font-size: 18px;
+ margin-top: 5px;
 }
 h2{
  font-weight: 600;
@@ -45,14 +78,25 @@ h2{
  color:var(--color)
 }
 button{
-    font-size: 17px;
+    font-size: 20px;
     margin-top: 20px;
     padding: 5px 10px 5px 10px;
     border: none;
     border-radius: 8px;
     font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
-    color:var(--color);
-    background-color: var(--footer);
-    color:var(--footer-color)
+    /* color:var(--color); */
+    background-color: var(--bg-color);
+    color:#00abf0;
+    border:2px solid #00abf0;
+   
+
+}
+
+.heading{
+     
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: -20px;
+ margin-top:20px
 
 }
