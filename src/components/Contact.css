@@ -107,6 +107,7 @@ a:hover{
 
 #scrollup>img{
     width:50px;
+    cursor: pointer;
     
 }
 .hide{
