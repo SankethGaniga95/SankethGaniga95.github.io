@@ -9,9 +9,9 @@
 }
 #home{
    
-    height: 90vh;
     display: flex;
     background:var(--bg-color);
+   
 
 }
 #home-content{
