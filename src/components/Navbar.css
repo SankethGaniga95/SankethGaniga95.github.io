@@ -2,7 +2,7 @@
     display:flex;
     align-items: center;
     background-color: var(--bg-color);
-   
+    /* position: fixed; */
   
     
   
@@ -152,25 +152,49 @@ input:checked+label svg.moon-toggle {
     display: none;
 }
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:820px) {
    .menu{
     display: none;
    } 
 
    #ham{
-    margin-left: 500px;
+    margin-left: 120px;
     display: inline;
 }
 #ham img{
-    height:50px;
-    width:50px;
+    height:40px;
+    width:40px;
     margin-right: 50px;
  
 }
+h3{
+    margin-left:20px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    color:var(--color);
+    font-weight:350;
+    font-size: 22px;
 }
-@media screen and (min-width:740px) {
+}
+@media screen and (max-width:420px) {
 
  .menu2{
      display: none;
  }
+ #ham{
+    margin-left: 100px;
+    display: inline;
+ }
+ #ham img{
+    height:30px;
+    width:30px;
+    margin-right: 20px;
+ 
+}
+h3{
+    margin-left:20px;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    color:var(--color);
+    font-weight:350;
+    font-size: 22px;
+}
  }

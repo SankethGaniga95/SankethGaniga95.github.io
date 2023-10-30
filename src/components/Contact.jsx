@@ -16,19 +16,19 @@ export const Contact = () => {
       <p>Feel free to use the following contact details:</p>
       <div id="all-contact">
       <div id="contact-github">
-      <Github size={32} strokeWidth={2.5}/>
+      <Github className='footer-icons' strokeWidth={2.5}/>
       <a href="https://github.com/SankethGaniga95" target="_blank" rel="noreferrer" >Github</a>
       </div>
       <div id="contact-linkedin">
-      <Linkedin size={32} strokeWidth={2.5} />
+      <Linkedin className='footer-icons' strokeWidth={2.5} />
       <a href="https://www.linkedin.com/in/sanketh-ganiga-35398317a/" target="_blank" rel="noreferrer" >Linked In</a>
       </div>
       <div id="contact-email">
-      <Mail size={32} strokeWidth={2.5}/>
+      <Mail className='footer-icons' strokeWidth={2.5}/>
       <a href="mailto:sankethganiga888@gmail.com" target='_blank' rel="noreferrer" >Email</a>
       </div>
       <div id="contact-phone">
-      <Phone size={32} strokeWidth={2.5}/>
+      <Phone className='footer-icons' strokeWidth={2.5}/>
      <p id="phone">+91 9892797599</p>
       </div>
       </div>
@@ -49,7 +49,7 @@ export const Contact = () => {
     <div id="footer-end">
 
     <div id="copyright">
-    <Copyright size={18} />
+    <Copyright id="copyright-icon"/>
     <p>Sanketh Ganiga</p>  
      </div>
      <div id="scrollup">

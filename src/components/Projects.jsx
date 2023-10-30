@@ -5,12 +5,16 @@ import achiever from "../images/Achiever_Avenue.png"
 import "./Projects.css"
 import skilhub from "../images/skillhub.png"
 
+
+
 export const Projects = () => {
   return (
     <div id="projects">
       <h1 id="title">Projects</h1>
       <div className='project-card'>
+      <div style={{display:"flex"}}>
         <img src={achiever} alt="" />
+        </div>
         <div className='project-details'>
         <div className='heading'>
         <div>
@@ -37,62 +41,9 @@ export const Projects = () => {
         </div>
       </div>
       <div className='project-card'>
-        <img src={mountaineer} alt="" />
-        <div className='project-details'>
-        <div className='heading'>
-        <div>
-        <h2 className='project-title'>Mountaineer</h2>
-        </div>
-        <div>
-        <a href="https://github.com/SankethGaniga95/timely-river-8283" className='project-github-link' target='_blank' rel="noreferrer">
-        <button >GitHub</button>
-        </a>
-        <a href="https://timely-river-8283.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
-        <button >Live Site</button>
-        </a>
-        </div>
-        </div>
-        <p className='project-description'>Mountaineer is a clone of an e commerce website Eastern Mountain Sports which sells products related to adventure sports</p>
-        <div className='project-tech-stack'>
-        <h3>Tech Stack:-</h3>
-        <div>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
-        </div>
-        </div>
-        </div>
-      </div>
-      <div className='project-card'>
-        <img src={kiranawaale} alt="" />
-        <div className='project-details'>
-        <div className='heading'>
-        <div>
-        <h2 className='project-title'>Kiranawaale</h2>
-        </div>
-        <div>
-        <a href="https://github.com/SankethGaniga95/flawless-vegetable-3066" target='_blank' rel="noreferrer" className='project-github-link'>
-        <button >GitHub</button>
-        </a>
-        <a href="https://poetic-bombolone-938874.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
-        <button >Live Site</button>
-        </a>
-        </div>
-        </div>
-        <p className='project-description'>About
-Kiranawaale is an e commerce website which sells products related to kitchen ware</p>
-        <div className='project-tech-stack'>
-        <h3>Tech Stack:-</h3>
-        <div>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
-        </div>
-        </div>
-        </div>
-      </div>
-      <div className='project-card'>
+        <div style={{display:"flex"}}>
         <img src={skilhub} alt="" />
+        </div>
         <div className='project-details'>
         <div className='heading'>
         <div>
@@ -119,7 +70,65 @@ Kiranawaale is an e commerce website which sells products related to kitchen war
         <p>NodeJs</p>
         </div>
         </div>
-        
+        </div>
+      </div>
+      <div className='project-card'>
+      <div style={{display:"flex"}}>
+        <img src={mountaineer} alt="" />
+        </div>
+        <div className='project-details'>
+        <div className='heading'>
+        <div>
+        <h2 className='project-title'>Mountaineer</h2>
+        </div>
+        <div>
+        <a href="https://github.com/SankethGaniga95/timely-river-8283" className='project-github-link' target='_blank' rel="noreferrer">
+        <button >GitHub</button>
+        </a>
+        <a href="https://timely-river-8283.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
+        <button >Live Site</button>
+        </a>
+        </div>
+        </div>
+        <p className='project-description'>Mountaineer is a clone of an e commerce website Eastern Mountain Sports which sells products related to adventure sports</p>
+        <div className='project-tech-stack'>
+        <h3>Tech Stack:-</h3>
+        <div>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        </div>
+        </div>
+        </div>
+      </div>
+      <div className='project-card'>
+      <div style={{display:"flex"}}>
+        <img src={kiranawaale} alt="" />
+      </div>
+        <div className='project-details'>
+        <div className='heading'>
+        <div>
+        <h2 className='project-title'>Kiranawaale</h2>
+        </div>
+        <div>
+        <a href="https://github.com/SankethGaniga95/flawless-vegetable-3066" target='_blank' rel="noreferrer" className='project-github-link'>
+        <button >GitHub</button>
+        </a>
+        <a href="https://poetic-bombolone-938874.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
+        <button >Live Site</button>
+        </a>
+        </div>
+        </div>
+        <p className='project-description'>About
+Kiranawaale is an e commerce website which sells products related to kitchen ware</p>
+        <div className='project-tech-stack'>
+        <h3>Tech Stack:-</h3>
+        <div>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        </div>
+        </div>
         </div>
       </div>
     </div>

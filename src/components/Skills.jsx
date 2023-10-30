@@ -21,7 +21,7 @@ export const Skills=()=>{
  return(
 
      <div id="skills">
-            <h2 id="title">Skills</h2>
+            <h2 id="Skilltitle">Skills</h2>
             <p id="subtitle">These are the technologies I've worked with :</p>
           <div id="skills-container">
             {/* ------------------------------ */}
@@ -140,39 +140,7 @@ export const Skills=()=>{
           
     </div>
 
-    {/* <div className="coffee">
-            <div className="plate"></div>
-            <div className="cup">
-                <div className="top">
-                    <div className="vapour">
-                         <span id={1}></span>
-                         <span id={3}></span>
-                        <span id={5}></span>
-                        <span id={13}></span>
-                        <span id={6}></span>
-                        <span id={7}></span>
-                        <span id={10}></span>
-                        <span id={8}></span>   
-                        <span id={11}></span>
-                        <span id={12}></span>
-                        <span id={14}></span>
-                        <span id={2}></span>
-                        <span id={9}></span>
-                        <span id={15}></span>
-                        <span id={4}></span>
-                    </div>
-                  <div className="circle1">
-                    <div className="tea">
-
-                    </div>
-                    </div>  
-                </div>
-                  <div className="handle">
-
-                  </div>
-            </div>
-
-        </div> */}
+    
                 </div>    
 
  )
