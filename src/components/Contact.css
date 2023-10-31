@@ -132,11 +132,11 @@ a:hover{
 
 @media screen and (max-width:820px){
     #contact{
-        margin-left: 0px;
-        width:70%;
+        margin-left: 30px;
+        width:95%;
         text-align:left;
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
-        font-size:16px;
+        font-size:20px;
         line-height: 30px;
         color:var(--color);
         font-weight:300;
@@ -148,7 +148,7 @@ a:hover{
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         font-size:24px;
         font-weight:600;
-        margin-left: -120px;
+        margin-left: -180px;
     }
     #contact h3{
         text-align:left;
@@ -166,18 +166,18 @@ a:hover{
         margin-left:30px
       }
     #footer{
-        width:60%;
-        height:160px;
+        width:85%;
+        height:250px;
         background-color:var(--footer);
         color:var(--footer-color);
-        padding-top:50px;
+        padding-top:40px;
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         margin-top: 30px;
-        font-size: 10px;
+        font-size: 16px;
         font-weight: 350;
     }
     #footer>p{
-        width:75%;
+        width:80%;
         margin-left: 50px;
     }
   
@@ -224,11 +224,11 @@ a:hover{
     a{
         text-decoration: none;
         margin-left: 5px;
-        font-size: 12px;
+        font-size: 16px;
         color:var(--color);
     }
     #contact-linkedin>a{
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 480;
     }
     a:hover{
@@ -236,7 +236,7 @@ a:hover{
     }
     #phone{
         margin-left: 2px;
-        font-size: 10px;
+        font-size: 15px;
         color:var(--color);
         font-weight: 500;
     
@@ -263,12 +263,12 @@ a:hover{
         margin-top: -10px;
         justify-content:space-;
         width:55%;
-        margin-left: 37%;
+        margin-left: 38%;
         
     }
     
     #scrollup>img{
-        width:30px;
+        width:50px;
         cursor: pointer;
         
     }
@@ -285,7 +285,7 @@ a:hover{
         width:16px
     }
     .footer-icons{
-        width:16px
+        width:22px
     }
     
     

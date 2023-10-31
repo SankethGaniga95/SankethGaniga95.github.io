@@ -68,11 +68,11 @@
     
     #skills-container{
         gap:20px;
-        width:55%;
+        width:85%;
     }
     #table{
         width:70%;
-        margin-left: 0px;
+        margin-left: -120px;
         
     }
     .row{
@@ -81,7 +81,7 @@
        border: 2px solid red;
     }
     .skills-card{
-        margin-left: 12px;
+        margin-left: 20px;
     }
     
     .skills-card-img{
@@ -101,7 +101,7 @@
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         font-size: 24px;
         color: var(--color);
-        margin-left: -48%;
+        margin-left: -18%;
         
     }
     #subtitle{
@@ -110,9 +110,8 @@
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         font-size: 16px;
         color: var(--color);
-        width:35%;
-        margin-left: 60px;
-    
+        width:65%;
+        margin-left: 50px;
     }
     .sectionheading{
       

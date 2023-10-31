@@ -127,13 +127,13 @@ button{
         /* border:2px solid #444452; */
         padding: 50px;
         /* display: flex; */
-        width:40%;
+        width:58%;
         margin:auto;
         text-align: left;
         border-radius: 20px;
         margin-top: 30px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        margin-left: 10px;
+        margin-left: 40px;
     
     }
     #title{
@@ -150,13 +150,13 @@ button{
     
     }
     .project-description{
-        font-size: 18px;
+        font-size: 20px;
     }
     
     .project-card>div>img{
-        width:118%;
+        width:110%;
         /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
-        margin-left: -30px;
+        margin-left: -20px;
     }
  
     
