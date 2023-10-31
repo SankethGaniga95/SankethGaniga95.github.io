@@ -260,7 +260,7 @@ button{
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         font-size: 24px;
         color: var(--color);
-        margin-left: -30px;
+        margin-left:0px;
     
     }
     .project-title{
@@ -285,7 +285,7 @@ button{
     }
     
     #projects{
-        margin-top: 150px;
+        margin-top: 100px;
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         color:var(--color)
     }

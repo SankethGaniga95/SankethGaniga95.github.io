@@ -172,7 +172,7 @@
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         font-size: 24px;
         color: var(--color);
-        margin-left:-10%;
+        margin-left:-5%;
         
     }
     #subtitle{
@@ -182,8 +182,8 @@
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         font-size: 14px;
         color: var(--color);
-        width:50%;
-        margin-left: 70px;
+        width:70%;
+        margin-left: 60px;
     
     }
     .sectionheading{

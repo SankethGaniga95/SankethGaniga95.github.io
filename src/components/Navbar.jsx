@@ -64,6 +64,9 @@ export const Navbar=()=>{
             show && <div id="ham-div">
                 <ul className="menu2">
             <li>
+                <h1 onClick={()=>setShow(!show)}>X</h1>
+            </li>
+            <li>
                 <a href="#home"  className="nav-link home">Home</a>
             </li>
             <li>

@@ -24,7 +24,7 @@ export const Github = () => {
     </div>
     <div id="hello">
         {/* <a href="https://github.com/SankethGaniga95/github-readme-stats"> */}
-            <img height="190px" id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SankethGaniga95&layout=donut&hide_border=true" alt="link broken" />
+            <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SankethGaniga95&layout=donut&hide_border=true" alt="link broken" />
         {/* </a> */}
    
     </div>

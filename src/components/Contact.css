@@ -156,7 +156,7 @@ a:hover{
     }
    
     #contact>p:nth-child(2){
-      margin-top: -50px;
+      margin-top: -10px;
       width:70%;
       margin-left:30px
     }
@@ -300,7 +300,7 @@ a:hover{
         line-height: 30px;
         color:var(--color);
         font-weight:300;
-        margin-top: 10px;
+        margin-top: 100px;
         
     }
     
@@ -317,14 +317,14 @@ a:hover{
     }
    
     #contact>p:nth-child(2){
-      margin-top: -50px;
-      width:70%;
-      margin-left:30px
+      margin-top: 30px;
+      width:90%;
+      margin-left:0px
     }
     #contact>p:nth-child(3){
     
-        width:70%;
-        margin-left:30px
+        width:90%;
+        margin-left:0px
       }
     #footer{
         width:100%;
@@ -334,11 +334,11 @@ a:hover{
         padding-top:10px;
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         margin-top: 30px;
-        font-size: 10px;
+        font-size: 11px;
         font-weight: 350;
     }
-    #footer>p:nth-child(2){
-        width:75%;
+    #footer>p{
+        width:83%;
         margin-left: 30px;
     }
     #contact-email{
@@ -395,7 +395,7 @@ a:hover{
     }
     #phone{
         margin-left: 2px;
-        font-size: 8px;
+        font-size: 12px;
         color:var(--color);
         font-weight: 500;
     
@@ -421,8 +421,8 @@ a:hover{
         display: flex;
         margin-top: -10px;
         justify-content:space-;
-        width:55%;
-        margin-left: 35%;
+        width:60%;
+        margin-left: 36%;
         
     }
     

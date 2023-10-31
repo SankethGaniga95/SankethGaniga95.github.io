@@ -136,6 +136,11 @@ input:checked+label svg.moon-toggle {
     margin-bottom: 10px;  
    
 }
+.menu2 h1{
+    margin-left: 300px;
+    display: inline;
+}
+
 
 
 
@@ -174,14 +179,56 @@ h3{
     font-weight:350;
     font-size: 22px;
 }
+/* .menu2{
+    position:absolute;
+    right:500px;
+    top:25px;
+    list-style-type: none;
+    font-size: large;
+    background-color: #00abf0;
+    padding-right: 40px;
+    border-radius: 5px;
+    z-index: 1;
+
+} */
 }
 @media screen and (max-width:420px) {
-
  .menu2{
+    position:fixed; 
+    left:0px;
+    top:0px;
+    list-style-type: none;
+    font-weight: 500;
+    background-color: #00abf0;
+    padding-right: 70px;
+    border-radius: 10px;
+    z-index: 1;
+
+
+
+} 
+.menu2 a{
+    text-decoration: none;
+    color:antiquewhite; 
+    font-size: 20px;
+    
+}
+.menu2 li{
+    margin-top: 30px;
+}
+.menu2 button{
+    margin-top: 0px;
+    margin-bottom: 100px;
+    font-size: 20px;  
+    margin-left: 10px;
+   
+}
+
+ /* .menu2{
      display: none;
- }
+ } */
  #ham{
-    margin-left: 100px;
+    margin-left: 180px;
     display: inline;
  }
  #ham img{
@@ -195,6 +242,6 @@ h3{
     font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     color:var(--color);
     font-weight:350;
-    font-size: 22px;
+    font-size: 18px;
 }
  }
