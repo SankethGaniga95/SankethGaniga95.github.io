@@ -288,12 +288,12 @@ border-radius: 50%;
     }
     #home-content{
         margin-top: 40px;
-        width:70%;   
+        width:70%;  
     }
   
      
         #home-content h2:nth-child(1){
-            font-size:26px;
+            font-size:24px;
             margin-left: 40px;
             line-height: 40px;
             text-align: left;
@@ -366,7 +366,7 @@ border-radius: 50%;
     }
     #home-content{
         margin-top: 20px;
-        width:90%;
+        width:95%;
         
         
     }
@@ -414,7 +414,7 @@ border-radius: 50%;
         /* border:1px solid #ffffff; */
         position: absolute;
         margin:0px;
-        margin-left: 10px;
+        margin-left: 0px;
 
         
     }
@@ -426,7 +426,7 @@ border-radius: 50%;
         position: absolute;
         margin: auto;
         margin-top: 40px;
-        margin-left: 55px;
+        margin-left: 45px;
         
     }
  

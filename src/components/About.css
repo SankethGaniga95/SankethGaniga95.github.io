@@ -134,40 +134,44 @@
         font-weight: 370;   
     }
     
-    #about>div:nth-child(2)>div{
+    #resume-part{
         display: flex; 
         align-items: center;
-        gap:20px;
-        width:80%;
-        margin-top:-5px;
-        font-size:22px;
+    }
+    #resume-part>div:nth-child(1){
+        width:60%;
+        margin-top:0px;
+        font-size:24px;
         font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
-        font-weight: 400; 
-        /* border:2px solid red */
+        font-weight: 350;
+    }
+    #resume-part>div:nth-child(2){
+        width:10%;
+        margin-left: -50px;
+    }
+    #resume-part img{
+        width:40px;
+        height: 30px;
+       padding: -25px  
     }
     
-    #about>div:nth-child(2)>div>span>span>img{
-       width:30px;
-       height: 20px;
-      padding: -25px
-    }
-    
-    
-    .resume-button{
-        width:85px;
-        height:50px;
-        font-size:20px;
+    #resume-button-2{
+        width:100px;
+        height:55px;
+        font-size:24px;
         border-radius: 8px;
         border: none;
         margin-top: 10px;
         font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         font-weight: 400; 
         border: 2px solid #00abf0;
-        margin-left: 180px;
+        
     }
-    .resume-button:hover{
+    #resume-button:hover{
        color: #00abf0;
     }
+    
+  
     
 }
 @media screen and (max-width:420px){
@@ -175,10 +179,10 @@
         text-align: left;
         background-color: var(--bg-color);
     
-        margin-top: 400px;
+        margin-top: 450px;
     }
     #about>div:nth-child(1){
-     margin-left:90px;
+     margin-left:80px;
      border-radius: 50%;
      font-weight: 200px;
      font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
@@ -189,7 +193,7 @@
         margin-left:0px;
         font-weight: 350;
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
-        font-size:24px;
+        font-size:26px;
         
         
         
@@ -206,9 +210,9 @@
        }
     #about>div:nth-child(2){
         margin-left:20px;
-        width:90%;
+        width:93%;
         margin-top:45px;
-        font-size:22px;
+        font-size:20px;
         line-height: 30px;
         font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         font-weight: 400;  
@@ -216,36 +220,38 @@
     }
     #about>div:nth-child(2)>p:nth-child(2){
         width:100%;
-        margin-top:-22px;
-        font-size:21px;
+        margin-top:-20px;
+        font-size:20px;
         line-height: 30px;
         font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         font-weight:370;  
         
     
     }
-    
-    #about>div:nth-child(2)>div{
+    #resume-part{
         display: flex; 
         align-items: center;
-        gap:20px;
-        width:100%;
-        margin-top:0px;
+        
+
+    }
+    #resume-part>div:nth-child(1){
+        width:60%;
+        margin-top:10px;
         font-size:20px;
         font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
-        font-weight: 400; 
-         
-       
+        font-weight: 350;
+    }
+    #resume-part>div:nth-child(2){
+        width:10%;
+        margin-left: -10px;
+    }
+    #resume-part img{
+        width:40px;
+        height: 30px;
+       padding: -25px  
     }
     
-    #about>div:nth-child(2)>div>span>span>img{
-       width:40px;
-       height: 30px;
-      padding: -25px
-    }
-    
-    
-    .resume-button{
+    #resume-button-2{
         width:85px;
         height:45px;
         font-size:18px;
@@ -255,8 +261,9 @@
         font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
         font-weight: 400; 
         border: 2px solid #00abf0;
+        
     }
-    .resume-button:hover{
+    #resume-button:hover{
        color: #00abf0;
     }
     

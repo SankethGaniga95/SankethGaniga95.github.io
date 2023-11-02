@@ -233,12 +233,23 @@ h3{
 .menu2 li{
     margin-top: 30px;
 }
+.menu2 li{
+    margin-top: 30px;
+    margin-left: 20px;
+}
 .menu2 button{
     margin-top: 0px;
     margin-bottom: 100px;
     font-size: 20px;  
-    margin-left: 10px;
+    margin-left: 15px;
+    padding: 10px;
    
+}
+.menu2 li:nth-child(1)>h1{
+    margin-left: 85px;
+    color: white;
+
+    font-size: 30px;
 }
 
  /* .menu2{
@@ -259,6 +270,6 @@ h3{
     font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     color:var(--color);
     font-weight:350;
-    font-size: 18px;
+    font-size: 17px;
 }
  }
