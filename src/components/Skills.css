@@ -69,6 +69,7 @@
     #skills-container{
         gap:20px;
         width:85%;
+        
     }
     #table{
         width:70%;
@@ -78,11 +79,12 @@
     .row{
         height: 100px;
         gap:20px;
-       border: 2px solid red;
+      
     }
     .skills-card{
         margin-left: 20px;
     }
+    
     
     .skills-card-img{
         object-fit:contain;
@@ -136,53 +138,53 @@
 
   @media  screen and (max-width:420px) {
     #skills{
-        margin-top: 50px;
+        margin-top: 100px;
         background-color: var(--bg-color);
     }
     
     #skills-container{
         gap:10px;
-        width:60%;
-    }
-    #table{
-        width:60%;
-        margin-left: 120px;
-        
+        width:20%;
+        margin-left:25%;
     }
     .row{
         height: 100px;
-        gap:20px
+    
     }
     
     .skills-card-img{
         object-fit:contain;
-        height:20px;
-        width:20px;
+        height:25px;
+        width:25px;
+    }
+    .skills-card{
+        margin-left: 5px;
     }
     .sectiontype{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         color: var(--color);
+        margin-left: 40px;
     }
     
     #Skilltitle{
         text-align: center;
         font-weight: 600;
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
-        font-size: 24px;
+        font-size: 28px;
         color: var(--color);
-        margin-left:-5%;
+        margin-left:-7%;
         
     }
+   
     #subtitle{
         text-align:center;
-        
-        font-weight: 500;
+        font-weight: 350;
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         color: var(--color);
-        width:70%;
-        margin-left: 60px;
+        width:80%;
+        margin-left: 20px;
     
     }
     .sectionheading{
@@ -193,7 +195,7 @@
     }
     .skills-card-name{
         font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
-        font-size: 8px;
+        font-size: 10px;
         color: var(--color);
         font-weight: 500;
     }
