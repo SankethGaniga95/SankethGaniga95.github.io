@@ -21,7 +21,7 @@ export const Contact = () => {
       </div>
       <div id="contact-linkedin">
       <Linkedin className='footer-icons' strokeWidth={2.5} />
-      <a href="https://www.linkedin.com/in/sanketh-ganiga-35398317a/" className='links' target="_blank" rel="noreferrer" >Linked In</a>
+      <a href="https://www.linkedin.com/in/sanketh-ganiga-35398317a/" className='links' target="_blank" rel="noreferrer" >LinkedIn</a>
       </div>
       <div id="contact-email">
       <Mail className='footer-icons' strokeWidth={2.5}/>
@@ -29,7 +29,7 @@ export const Contact = () => {
       </div>
       <div id="contact-phone">
       <Phone className='footer-icons' strokeWidth={2.5}/>
-     <p id="phone">+91 9892797599</p>
+     <p id="phone">+919892797599</p>
       </div>
       </div>
       

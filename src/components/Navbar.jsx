@@ -82,7 +82,7 @@ export const Navbar=()=>{
                 <a href="#contact" className="nav-link contact">Contact</a>
             </li>
             <li>
-            <a href="https://drive.google.com/uc?id=1WB6LWvTqpwnKuwJrGRYomqThnU-nnOiG&export=download" target="_blank" rel="noreferrer" className="nav-link resume" id="resume-link-1" download>
+            <a href="https://drive.google.com/uc?id=1WB6LWvTqpwnKuwJrGRYomqThnU-nnOiG" title="Sanketh Ganiga Resume"  target="_blank" rel="noreferrer" className="nav-link resume" id="resume-link-1" download="Sanketh-Ganiga-Resume.pdf">
                         <button id="resume-button-1">Resume</button>
                     </a>
                 

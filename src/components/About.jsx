@@ -11,7 +11,7 @@ return(
     </div>
     <div>
     <p id="user-detail-name">Hey, I'm Sanketh Ganiga,</p>
-    <p id="user-detail-intro">an aspiring Front-End Web Developer with  React, HTML, CSS, and JavaScript. Skilled in creating visually appealing and user-friendly websites. Collaborative team player with problem-solving skills and attention to detail. Committed to staying updated with industry trends and delivering innovative solutions. </p>
+    <p id="user-detail-intro">an aspiring Full Stack Web Developer with  React, HTML, CSS, and JavaScript. Skilled in creating visually appealing and user-friendly websites. Collaborative team player with problem-solving skills and attention to detail. Committed to staying updated with industry trends and delivering innovative solutions. </p>
     <div id="resume-part">
     <div>
     <span>To know more about me <span><img src={pointright} alt="" /></span></span>

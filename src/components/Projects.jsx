@@ -1,9 +1,10 @@
 import React from 'react'
-import kiranawaale from "../images/kiranawaale.png"
+
 import mountaineer from "../images/Mountaineer.png"
-import achiever from "../images/Achiever_Avenue.png"
+import achiever from "../images/Achiever Avenue.png"
 import "./Projects.css"
 import skilhub from "../images/skillhub.png"
+import jeera from "../images/jeera-screen.png"
 
 
 
@@ -24,7 +25,7 @@ export const Projects = () => {
         <a href="https://github.com/SankethGaniga95/imaginary-blood-7556" target='_blank' rel="noreferrer" className='project-github-link'>
         <button >GitHub</button>
         </a>
-        <a href="https://imaginary-blood-7556.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
+        <a href="https://achieversavenue.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
         <button >Live Site</button>
         </a>
         </div>
@@ -50,7 +51,7 @@ export const Projects = () => {
         <h2 className='project-title'>Skill Hub</h2>
         </div>
         <div>
-        <a href="https://github.com/Ak-nut-47/greasy-sofa-2441" target='_blank' rel="noreferrer" className='project-github-link'>
+        <a href="https://github.com/SankethGaniga95/skillHub" target='_blank' rel="noreferrer" className='project-github-link'>
         <button >GitHub</button>
         </a>
         <a href="https://nemskillhub.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
@@ -82,10 +83,10 @@ export const Projects = () => {
         <h2 className='project-title'>Mountaineer</h2>
         </div>
         <div>
-        <a href="https://github.com/SankethGaniga95/timely-river-8283" className='project-github-link' target='_blank' rel="noreferrer">
+        <a href="https://github.com/SankethGaniga95/Mountaineer" className='project-github-link' target='_blank' rel="noreferrer">
         <button >GitHub</button>
         </a>
-        <a href="https://timely-river-8283.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
+        <a href="https://mountaineeer.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
         <button >Live Site</button>
         </a>
         </div>
@@ -103,30 +104,30 @@ export const Projects = () => {
       </div>
       <div className='project-card'>
       <div style={{display:"flex"}}>
-        <img src={kiranawaale} alt="" />
+        <img src={jeera} alt="" />
       </div>
         <div className='project-details'>
         <div className='heading'>
         <div>
-        <h2 className='project-title'>Kiranawaale</h2>
+        <h2 className='project-title'>Jeera</h2>
         </div>
         <div>
-        <a href="https://github.com/SankethGaniga95/flawless-vegetable-3066" target='_blank' rel="noreferrer" className='project-github-link'>
+        <a href="https://github.com/SankethGaniga95/Jeera" target='_blank' rel="noreferrer" className='project-github-link'>
         <button >GitHub</button>
         </a>
-        <a href="https://poetic-bombolone-938874.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
+        <a href="https://jeera-project-management.netlify.app/" target="_blank" rel="noreferrer" className='project-deployed-link'>
         <button >Live Site</button>
         </a>
         </div>
         </div>
-        <p className='project-description'>About
-Kiranawaale is an e commerce website which sells products related to kitchen ware</p>
+        <p className='project-description'>Jeera is a comprehensive project management application that enables teams to efficiently collaborate on projects, track tasks, and manage resources.</p>
         <div className='project-tech-stack'>
         <h3>Tech Stack:-</h3>
         <div>
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>JavaScript</p>
+        <p>Angular</p>
+        <p>Node</p>
+        <p>Express</p>
+        <p>MongoDB</p>
         </div>
         </div>
         </div>
